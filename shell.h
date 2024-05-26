@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <<ctype.h>
 #include <stddef.h>
 #include <unistd.h>
 #include <stdarg.h>
@@ -15,6 +14,6 @@
 #include <fcntl.h>
 #include <errno.h>
 
-void display_prompt();
+void display_prompt(void);
 
 #endif
